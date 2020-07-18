@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Sql2012Lansman", "http://localhost:21476", "{391852CE-480E-4DFF-AC09-4CB27A787421}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.PhysicalPath = "Sql2012Lansman\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_21476\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_21476"
+		DefaultWebSiteLanguage = "Visual C#"
+		Release.AspNetCompiler.Debug = "False"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.PhysicalPath = "Sql2012Lansman\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_21476\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.VirtualPath = "/localhost_21476"
+		SccAuxPath = ""
+		SccLocalPath = ""
+		SccProjectName = ""
+		SccProvider = ""
+		SlnRelativePath = "Sql2012Lansman\"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		UseIISExpress = "true"
+	EndProjectSection
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\My Web Sites\Sql2012Lansman\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_21476\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_21476"
+		DefaultWebSiteLanguage = "Visual C#"
+		Release.AspNetCompiler.Debug = "False"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\My Web Sites\Sql2012Lansman\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_21476\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.VirtualPath = "/localhost_21476"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProjectName = "SAK"
+		SccProvider = "SAK"
+		SlnRelativePath = "..\..\..\My Web Sites\Sql2012Lansman\"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		UseIISExpress = "true"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{391852CE-480E-4DFF-AC09-4CB27A787421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{391852CE-480E-4DFF-AC09-4CB27A787421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
