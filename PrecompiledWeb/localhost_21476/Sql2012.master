@@ -1,0 +1,40 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="Sql2012, App_Web_j1izsnsl" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="c/sql2012.css?v4" rel="stylesheet" type="text/css" />
+    <title>SQL Server 2012 Lansman</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<div class="header">
+  <a href="Anasayfa.aspx">
+    <img src="i/logo.png" alt="" width="500" height="128" class="logo" />
+  </a>
+  <a href="Anasayfa.aspx" class="home">Anasayfa</a>
+  <ul>
+    <li><a href="Program.aspx">Program</a></li>
+    <li><a href="Oturumlar.aspx">Oturumlar</a></li>
+    <li><a href="Konusmacilar.aspx">Konuşmacılar </a></li>
+    <li><a href="Sponsorlar.aspx">Sponsorlar</a></li>
+    <li class="date"><p style="line-height:25px; padding-top:20px">03 Mayıs 2012</p><p style="line-height:20px;font-size:12px; color:#cb2128">Swissotel The Bosphorus</p></li>
+    <li class="register"><a target="_blank" href="https://msevents.microsoft.com/CUI/EventDetail.aspx?EventID=1032511156&Culture=TR-TR">Kayıt Olun</a></li>
+  </ul>
+</div>
+<asp:ContentPlaceHolder id="dynamicContent" runat="server"></asp:ContentPlaceHolder>
+<ul class="footer">
+  <li>
+        <a target="_blank"  href="http://www.microsoft.com/about/legal/en/us/IntellectualProperty/Copyright/Default.aspx">Kullanım Şartları</a> 
+    |
+        <a target="_blank" href="http://privacy.microsoft.com/tr-tr/default.mspx">Gizlilik Bildirimi</a> 
+    | 
+        <a href="iletisim.aspx">İletişim</a>
+          <br />
+  Developed for Microsoft by <a class="ms" target="_blank" href="http://www.tcm.com.tr">TCM | Teknoloji Çözümleri Merkezi</a>
+    </li>
+  <li class="copyR"><a href="javascript:;" class="ms">Microsoft</a>©2012 Microsoft Corporation. All Rights Reserved 
+  </li>
+</ul>    
+</body>
+</html>
